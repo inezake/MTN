@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial, sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+header{
+    background-color: #FBE309;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 4em;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.section-hero{
+    height: 100vh;
+    /* width: 100vw; */
+    position: relative;
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("https://pbs.twimg.com/media/DnU5_bHW4AAc3zP.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+    padding: 4em 8em;
+}
+.content{
+    color:white;
+    padding: 10em 4em;
+}
+.content h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.content p{
+    font-size: 1.5em;
+    padding:1em 0 ;
+}
+.btn-connect{
+    padding: 2em 3em;
+    background:  #ac9b09;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    margin: 2em 0;
+    border-radius: 12px;
+}
+.btn-connect:hover{
+    background: #FBE309;
+    color: black;
+    cursor: pointer;
+
+}
